@@ -1,0 +1,354 @@
+/* =========================================
+   MAPLE FOREST CLAN
+   Main Wolvden CSS
+   ========================================= */
+
+
+/* ---------- PAGE BACKGROUND ---------- */
+
+body {
+    background-color: #101A14 !important;
+    color: #E4DDC9 !important;
+    font-family: Georgia, "Times New Roman", serif !important;
+}
+
+
+/* ---------- MAIN PAGE ---------- */
+
+.container,
+.container-fluid {
+    background-color: transparent !important;
+}
+
+
+/* ---------- GENERAL TEXT ---------- */
+
+p {
+    color: #E4DDC9 !important;
+    line-height: 1.45;
+}
+
+small {
+    color: #B9B49F !important;
+}
+
+
+/* ---------- HEADINGS ---------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #D5C69D !important;
+    font-family: Georgia, "Times New Roman", serif !important;
+    margin-top: 8px;
+    margin-bottom: 6px;
+}
+
+h1 {
+    color: #C8753D !important;
+}
+
+h2 {
+    border-bottom: 1px solid #8B542F;
+    padding-bottom: 4px;
+}
+
+
+/* ---------- LINKS ---------- */
+
+a {
+    color: #C98A55 !important;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #E0B276 !important;
+    text-decoration: none;
+}
+
+
+/* ---------- TABLES ---------- */
+
+table {
+    background-color: #18291E !important;
+    color: #E4DDC9 !important;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #243A2A !important;
+    color: #D5C69D !important;
+    border-color: #526B4F !important;
+}
+
+td {
+    background-color: #18291E !important;
+    color: #E4DDC9 !important;
+    border-color: #526B4F !important;
+}
+
+
+/* ---------- TABLE ROWS ---------- */
+
+tr {
+    border-color: #526B4F !important;
+}
+
+tr:nth-child(even) td {
+    background-color: #1B3021 !important;
+}
+
+
+/* ---------- PANELS / BOXES ---------- */
+
+.panel,
+.card {
+    background-color: #18291E !important;
+    border: 1px solid #526B4F !important;
+    color: #E4DDC9 !important;
+    border-radius: 4px;
+}
+
+
+/* ---------- PANEL HEADERS ---------- */
+
+.panel-heading,
+.card-header {
+    background-color: #243A2A !important;
+    color: #D5C69D !important;
+    border-color: #526B4F !important;
+}
+
+
+/* ---------- FORM ELEMENTS ---------- */
+
+input,
+textarea,
+select {
+    background-color: #18291E !important;
+    color: #E4DDC9 !important;
+    border: 1px solid #526B4F !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #8B542F !important;
+    outline: none;
+}
+
+
+/* ---------- BUTTONS ---------- */
+
+button,
+input[type="submit"],
+input[type="button"] {
+    background-color: #243A2A !important;
+    color: #E4DDC9 !important;
+    border: 1px solid #8B542F !important;
+    border-radius: 3px;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #2D4531 !important;
+    color: #F0D5A8 !important;
+}
+
+
+/* ---------- HORIZONTAL LINES ---------- */
+
+hr {
+    border: 0;
+    border-top: 1px solid #526B4F;
+    margin: 8px 0;
+}
+
+
+/* ---------- BLOCKQUOTES ---------- */
+
+blockquote {
+    background-color: #18291E !important;
+    border-left: 3px solid #8B542F !important;
+    color: #C9C3AF !important;
+    padding: 8px 12px;
+    margin: 8px 0;
+}
+
+
+/* ---------- IMAGES ---------- */
+
+img {
+    border-color: #526B4F;
+}
+
+img:hover {
+    border-color: #8B542F;
+}
+
+
+/* ---------- LISTS ---------- */
+
+ul,
+ol {
+    margin-top: 4px;
+    margin-bottom: 6px;
+}
+
+li {
+    margin-bottom: 2px;
+}
+
+
+/* ---------- CLAN SECTION SPACING ---------- */
+
+.panel-body,
+.card-body {
+    padding: 10px !important;
+}
+
+
+/* ---------- COMPACT SECTION SPACING ---------- */
+
+.row {
+    margin-bottom: 6px;
+}
+
+[class*="col-"] {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+
+/* ---------- MAPLE ACCENT ---------- */
+
+.maple-accent {
+    color: #C8753D !important;
+}
+
+.maple-border {
+    border-color: #8B542F !important;
+}
+
+
+/* ---------- FOREST ACCENT ---------- */
+
+.forest-panel {
+    background-color: #18291E !important;
+    border: 1px solid #526B4F !important;
+}
+
+.forest-header {
+    background-color: #243A2A !important;
+    color: #D5C69D !important;
+}
+
+
+/* ---------- WOLF / MEMBER SECTIONS ---------- */
+
+.wolf-section {
+    background-color: #18291E !important;
+    border: 1px solid #526B4F !important;
+    padding: 8px !important;
+    margin-bottom: 6px !important;
+    border-radius: 4px;
+}
+
+.wolf-section h3,
+.wolf-section h4 {
+    color: #C8753D !important;
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+
+/* ---------- ROLE LABELS ---------- */
+
+.role {
+    color: #D5C69D !important;
+    font-weight: bold;
+}
+
+.role-hunter {
+    color: #C8753D !important;
+}
+
+.role-pupsitter {
+    color: #9FAF8D !important;
+}
+
+.role-scout {
+    color: #B8A87C !important;
+}
+
+
+/* ---------- HUNTER SECTION ---------- */
+
+.hunters {
+    background-color: #18291E !important;
+    border: 1px solid #8B542F !important;
+    padding: 8px !important;
+    margin-bottom: 6px !important;
+    border-radius: 4px;
+}
+
+.hunters h2,
+.hunters h3 {
+    color: #C8753D !important;
+}
+
+
+/* ---------- CLAN MEMBER SECTION ---------- */
+
+.clan-members {
+    background-color: #18291E !important;
+    border: 1px solid #526B4F !important;
+    padding: 8px !important;
+    margin-bottom: 6px !important;
+    border-radius: 4px;
+}
+
+.clan-members h2 {
+    color: #D5C69D !important;
+}
+
+
+/* ---------- DECORATIVE DIVIDERS ---------- */
+
+.maple-divider {
+    height: 1px;
+    background-color: #8B542F;
+    margin: 6px 0;
+}
+
+
+/* ---------- SCROLLBARS ---------- */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #101A14;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #526B4F;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #8B542F;
+}
+
+
+/* ---------- SELECTION ---------- */
+
+::selection {
+    background-color: #526B4F;
+    color: #F0E8D5;
+}
